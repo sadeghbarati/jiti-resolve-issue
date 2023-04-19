@@ -1,0 +1,12 @@
+{
+  "name": "unbuild-jiti-monorepo",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "rspack": "pnpm --filter playground-rspack dev",
+    "vite": "pnpm --filter playground-vite dev"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
+  }
+}
