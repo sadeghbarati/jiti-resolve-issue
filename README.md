@@ -1,14 +1,17 @@
+```shell
+pnpm run dev
+```
+
+
 ## Refrences
 
 - https://github.com/vitejs/vite/issues/5370
+- https://github.com/unjs/jiti/pull/134
 - https://github.com/unjs/unbuild/issues/121
 - https://github.com/unjs/unbuild/issues/20
 - https://github.com/unjs/unbuild/issues/35
 - https://github.com/unjs/unbuild/issues/248
 
-```shell
-pnpm run dev
-```
 
 ## Vite
 

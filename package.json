@@ -8,5 +8,10 @@
   "dependencies": {
     "typescript": "^5.0.4",
     "unbuild": "^1.2.1"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "jiti@1.18.2": "patches/jiti@1.18.2.patch"
+    }
   }
 }

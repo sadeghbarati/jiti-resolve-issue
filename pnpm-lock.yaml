@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+patchedDependencies:
+  jiti@1.18.2:
+    hash: 4rrv6xqv4tqiubqjm4gyuaqzre
+    path: patches/jiti@1.18.2.patch
+
 importers:
 
   .:
@@ -2234,10 +2239,11 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jiti@1.18.2:
+  /jiti@1.18.2(patch_hash=4rrv6xqv4tqiubqjm4gyuaqzre):
     resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
     hasBin: true
     dev: false
+    patched: true
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -2423,7 +2429,7 @@ packages:
       esbuild: 0.17.17
       fs-extra: 11.1.1
       globby: 13.1.4
-      jiti: 1.18.2
+      jiti: 1.18.2(patch_hash=4rrv6xqv4tqiubqjm4gyuaqzre)
       mlly: 1.2.0
       mri: 1.2.0
       pathe: 1.1.0
@@ -3179,7 +3185,7 @@ packages:
       esbuild: 0.17.17
       globby: 13.1.4
       hookable: 5.5.3
-      jiti: 1.18.2
+      jiti: 1.18.2(patch_hash=4rrv6xqv4tqiubqjm4gyuaqzre)
       magic-string: 0.30.0
       mkdist: 1.2.0(typescript@5.0.4)
       mlly: 1.2.0
@@ -3215,7 +3221,7 @@ packages:
       '@babel/standalone': 7.21.4
       '@babel/types': 7.21.4
       defu: 6.1.2
-      jiti: 1.18.2
+      jiti: 1.18.2(patch_hash=4rrv6xqv4tqiubqjm4gyuaqzre)
       mri: 1.2.0
       scule: 1.0.0
     transitivePeerDependencies:
