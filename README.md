@@ -3,7 +3,12 @@
 - https://github.com/vitejs/vite/issues/5370
 - https://github.com/unjs/unbuild/issues/121
 - https://github.com/unjs/unbuild/issues/20
+- https://github.com/unjs/unbuild/issues/35
+- https://github.com/unjs/unbuild/issues/248
 
+```shell
+pnpm run dev
+```
 
 ## Vite
 
@@ -18,15 +23,14 @@ Error: The following dependencies are imported but could not be resolved:
 
 ## Rspack
 
-- 
 ```
 The system cannot find the path specified. (os error 3)
-
 
 // after manually modifying packages/lib/dist/index.mjs
 // then undo changes
 
-Failed to resolve (util/fs/path/url/os/module/vm/proccess) in D:/Sadegh/Test/unbuild-jiti-monorepo/node_modules/.pnpm/jiti@1.18.2/node_modules/jiti\dist\jiti.js
+Failed to resolve (util/fs/path/url/os/module/vm/proccess) in 
+D:/Sadegh/Test/unbuild-jiti-monorepo/node_modules/.pnpm/jiti@1.18.2/node_modules/jiti\dist\jiti.js
 ```
 
 
